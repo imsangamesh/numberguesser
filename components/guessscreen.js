@@ -39,7 +39,7 @@ const GuessScreen = (props) => {
       return;
     }
     if (direction == "low") {
-      currHigh.current = currguess;
+      currHigh.current = currguess+1;
     } else {
       currLow.current = currguess;
     }
